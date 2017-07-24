@@ -21,7 +21,7 @@ HANDLE hCom;
 
 int ZQD_ComInit()
 {
-	hCom = CreateFile(TEXT("COM7"),//COM1口
+	hCom = CreateFile(TEXT("COM8"),//COM1口
 		GENERIC_READ | GENERIC_WRITE, //允许读和写
 		0, //独占方式
 		NULL,
